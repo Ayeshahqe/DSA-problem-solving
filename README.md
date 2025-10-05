@@ -12,19 +12,19 @@ A collection of Data Structures and Algorithms solutions implemented primarily i
 
 📘 **Topics Covered**
 
-Arrays – 1D and 2D arrays, patterns, matrix operations, special array problems
+**Arrays** – 1D and 2D arrays, patterns, matrix operations, special array problems
 
-Sraching & Sorting - Searching (Linear, Binary), Sorting (Bubble, Selection, Insertion, Quick, Merge)
+**Sraching & Sorting** - Searching (Linear, Binary), Sorting (Bubble, Selection, Insertion, Quick, Merge)
 
-Linked Lists – Singly, Doubly, Circular linked lists
+**Linked Lists** – Singly, Doubly, Circular linked lists
 
-Stacks & Queues – Implementation and problems
+**Stacks & Queues** – Implementation and problems
 
-Trees – Binary trees, Binary Search Trees, Tree traversals
+**Trees** – Binary trees, Binary Search Trees, Tree traversals
 
-Graphs – DFS, BFS, cycle detection, connected components
+**Graphs** – DFS, BFS, cycle detection, connected components
 
-Recursion & Backtracking – Basic to intermediate problems
+**Recursion & Backtracking** – Basic to intermediate problems
 
 🛠️ **How to Compile and Run**
 All code is compiled and run from the root directory of this repository using a standard C/C++ compiler (GCC or Clang).
