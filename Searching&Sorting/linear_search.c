@@ -7,6 +7,8 @@ int main()
     printf("Enter key: ");
     scanf("%d", &key);
 
+    // Traverse array
+
     for(int i = 0; i < n; i++){
         if(arr[i] == key){
             printf("Key found at index %d", i);
@@ -20,3 +22,6 @@ int main()
 
     return 0;
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
