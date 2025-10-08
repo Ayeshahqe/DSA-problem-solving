@@ -50,10 +50,10 @@ gcc DSA/Array/[file_name].c -o [file_name]_prog
 # Run the program
 ./[file_name]_prog
 
-#**📌 Repository Status**
+📌# **Repository Status**
 
 Total Problems Solved	: 46
 Languages Used	      : C / C+
 
-#**👨‍💻 Connect**
+👨‍💻# **Connect**
 Ayesha Haque | https://www.linkedin.com/in/ayesha-haque-691365336/ | haqueayesha042@gmail.com
