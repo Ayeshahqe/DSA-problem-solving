@@ -52,13 +52,8 @@ gcc DSA/Array/[file_name].c -o [file_name]_prog
 
 **📌 Repository Status**
 
-Total Problems Solved	: 44
-Languages Used	        : C / C++
-=======
-Total Problems Solved	: 39
-Languages Used	      : C / C++
->>>>>>> d8f71bff268bd746a2e67c01cf1bcc602c99de67
-Goal	                : Master all Medium level DSA topics.
+Total Problems Solved	: 46
+Languages Used	      : C / C+
 
 **👨‍💻 Connect**
 Ayesha Haque | https://www.linkedin.com/in/ayesha-haque-691365336/ | haqueayesha042@gmail.com
