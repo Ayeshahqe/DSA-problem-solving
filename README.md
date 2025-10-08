@@ -51,7 +51,7 @@ gcc DSA/Array/[file_name].c -o [file_name]_prog
 ./[file_name]_prog
 
 **📌 Repository Status**
-<<<<<<< HEAD
+
 Total Problems Solved	: 44
 Languages Used	        : C / C++
 =======
