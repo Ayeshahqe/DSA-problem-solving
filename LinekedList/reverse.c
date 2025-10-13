@@ -1,58 +1,62 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
+struct node {
     int data;
-    struct Node* next;
+    struct node* next;
 };
 
-// Insert at beginning
+// Insert at beginning of linked list.
 
-void push(struct Node** head, int val) {
-    struct Node* newNode = malloc(sizeof(struct Node));
+void push(struct node** head, int val) {
+    struct node* newNode = malloc(sizeof(struct node));
     newNode->data = val;
-    newNode->next = *head;
-    *head = newNode;
+    newNode->next = *head;  
+    *head = newNode;        
 }
 
-// Reverse the List
+// Display the list.
 
-struct Node* reverse(struct Node* head) {
-    struct Node *prev=NULL, *curr=head, *next=NULL;
-    while(curr){
-        next = curr->next;             // Store next node
-        curr->next = prev;             // Reverse link
-        prev = curr;                   // Move prev forward
-        curr = next;                   // Move curr forward
-    }
-    return prev;                       // New head
-}
-
-// Print List
-
-void printList(struct Node* head) {
-    while(head) {
-        printf("%d ", head->data);
-        head = head->next;
+void display(struct node* head) {
+    struct node* ptr = head;
+    while (ptr != NULL) {
+        printf("%d ", ptr->data);
+        ptr = ptr->next;
     }
     printf("\n");
 }
 
+// Reverse Linked list
+
+struct node* reverse(struct node *head) {
+    struct node *prev = NULL;
+    struct node *next = NULL;
+
+    while(head != NULL){
+        next = head->next;             // Store next node
+        head->next = prev;             
+        prev = head;                   // Move prev forward
+        head = next;                  
+    }
+    return prev;
+}
 
 int main() {
-    struct Node* head=NULL;
-    push(&head, 5);
-    push(&head, 4);   
-    push(&head, 3);
-    push(&head, 2);
-    push(&head, 1);
+    struct node* head = NULL;
 
-    printf("Original List: ");
-    printList(head);
+    push(&head, 10);
+    push(&head, 20);
+    push(&head, 30);
+    push(&head, 40);
+    push(&head, 50);
+
+    printf("Original list: ");
+    display(head);
 
     head = reverse(head);
-    printf("Reversed List: ");
-    printList(head);
-    return 0;
 
+    printf("Reversed list: ");
+    display(head);
+
+    return 0;
 }

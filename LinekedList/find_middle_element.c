@@ -9,7 +9,7 @@ struct Node {
 //Insert at beginning
 
 void push(struct Node** head, int val){     
-    struct Node* newNode = malloc(sizeof(struct Node));
+    struct Node *newNode = malloc(sizeof(struct Node));
     newNode->data = val;                    
     newNode->next = *head;                  // Makes the new node's next pointer point to what the current list head points to (the old first node).
     *head = newNode;                        // Updates the head pointer to point to the newNode. This makes the new node the first item in the list.
