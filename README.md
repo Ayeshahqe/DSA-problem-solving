@@ -35,24 +35,22 @@ All code is compiled and run from the root directory of this repository using a 
 To compile and run any C++ file:
 
 Bash
-
-# Example: Folder/SubFolder/[file_name].cpp
+Example: Folder/SubFolder/[file_name].cpp
 g++ DSA/Array/[file_name].cpp -o [file_name]_prog
-# Run the program
+Run the program
 ./[file_name]_prog
 
 2. C Files (.c)
 To compile and run any C file:
 
 Bash
-
-# Example: Folder/SubFolder/[file_name].c
+Example: Folder/SubFolder/[file_name].c
 gcc DSA/Array/[file_name].c -o [file_name]_prog
-# Run the program
+Run the program
 ./[file_name]_prog
 
 📌 **Repository Status**
-Total Problems Solved	: 61
+Total Problems Solved	: 67
 Languages Used	        : C / C++
 Goal	                : Master DSA
 

@@ -42,7 +42,7 @@ public:
             return -1;
         }
 
-        return arr[f];
+        return arr[f];                         // Return current front element
     }
 
     bool empty() {
@@ -67,6 +67,7 @@ int main(){
     cq.push(4);
 
     cq.printArr();
+
     while(!cq.empty()){
         cout << cq.front() << " ";
         cq.pop();
